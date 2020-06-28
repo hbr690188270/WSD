@@ -10,11 +10,19 @@ from disa_util import *
 
 # model = filter_model()
 # model = filter_model_hgd()
-model = bert_filter()
-model.test_model("cluster")
+model = bert_filter_2()
+model.test_model(filter = None)
+
+# model = dense_filter()
+# model.test_model()
 
 
+# model = SAT_filter()
+# model.test_model()
 
 
+# model = cip15_filter()
+# model.test_model()
 
-
+# model = bert_filter_new()
+# model.test_model(filter = None)
